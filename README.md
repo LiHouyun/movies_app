@@ -40,8 +40,23 @@ F:\Project\Flutter\movies_app>git commit -m "Initial commit"
 F:\Project\Flutter\movies_app>git branch
 * master
 
+F:\Project\Flutter\movies_app>git remote add origin https://github.com/LiHouyun/movies_app.git
+
+F:\Project\Flutter\movies_app>git push -u origin master
+Enumerating objects: 177, done.
+Counting objects: 100% (177/177), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (146/146), done.
+Writing objects: 100% (177/177), 267.01 KiB | 8.90 MiB/s, done.
+Total 177 (delta 20), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (20/20), done.
+To https://github.com/LiHouyun/movies_app.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
 F:\Project\Flutter\movies_app>git branch dev-1
 
 F:\Project\Flutter\movies_app>git switch dev-1
 Switched to branch 'dev-1'
+
 ```
