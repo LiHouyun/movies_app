@@ -60,3 +60,6 @@ F:\Project\Flutter\movies_app>git switch dev-1
 Switched to branch 'dev-1'
 
 ```
+
+# 打包发布
+

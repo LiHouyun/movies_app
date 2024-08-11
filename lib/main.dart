@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:movies_app/components/my_movie_list.dart';
 
 void main() {
   runApp(const MyApp());
@@ -71,12 +72,18 @@ class MyHomePage extends StatelessWidget {
         ),
         bottomNavigationBar: Container(
           height: 50,
-          child: TabBar(
+          child: const TabBar(
             tabs: [
               Tab(text: "0", icon: Icon(Icons.person)),
               Tab(text: "0", icon: Icon(Icons.person)),
             ],
           ),
+        ),
+        body: const TabBarView(
+          children: [
+            MyMovieList(),
+            MyMovieList(),
+          ],
         ),
       ),
     );
